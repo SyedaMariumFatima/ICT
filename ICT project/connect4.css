@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(to right, #ffcc00, #ff3300);
+    font-family: Consolas;
+    text-align: center;
+    color: #fff; 
+}
+
+#board{
+    height: 540px;
+    width: 630px;
+
+    background-color: blue;
+    border: 10px solid navy;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid navy;
+}
+
+.redPiece{
+    background-color: red;
+}
+
+.yellowPiece{
+    background-color: yellow;
+}
+
